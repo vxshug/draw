@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2024-03-13T03:14:25.266Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="23.0.2" etag="fCKSaApenkdX3HYtmAw7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-13T03:24:57.642Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ylJL94Wo8Mkl1oMfdIYp" version="23.0.2" type="github">
   <diagram name="第 1 页" id="UdXrYW2Pqg9ORStJ3tc1">
-    <mxGraphModel>
+    <mxGraphModel dx="869" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="aZfrWmVk_a12c1NfkREl-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="140" width="1200" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="aZfrWmVk_a12c1NfkREl-2" value="MQTT设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="480" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aZfrWmVk_a12c1NfkREl-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="aZfrWmVk_a12c1NfkREl-2" target="aZfrWmVk_a12c1NfkREl-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="260" as="sourcePoint" />
+            <mxPoint x="200" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aZfrWmVk_a12c1NfkREl-5" value="TCP,WebSocket" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="400" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aZfrWmVk_a12c1NfkREl-11" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="280" width="150" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="aZfrWmVk_a12c1NfkREl-9" value="TCP/TLS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aZfrWmVk_a12c1NfkREl-8" value="TCP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aZfrWmVk_a12c1NfkREl-7" value="WebSocket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aZfrWmVk_a12c1NfkREl-10" value="&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;WebSocket/TLS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aZfrWmVk_a12c1NfkREl-12" value="数据接收" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aZfrWmVk_a12c1NfkREl-13" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;Broker&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="70" width="260" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
